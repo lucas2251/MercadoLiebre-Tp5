@@ -19,8 +19,12 @@ p{
 body header ul li a{
     text-decoration: none;
     
-    color: black;
+    color: var(--negro);
 }
 body header ul{
     list-style: none;
+}
+.search i{
+    background-color: white;
+    margin: var(--negro);
 }
