@@ -28,3 +28,14 @@ body header ul{
     background-color: white;
     margin: var(--negro);
 }
+.imagenes{
+    max-width: 425px;
+    
+}
+.burger-menu{
+    text-align: center;
+}
+.burger-menu i{
+    background-color:var(--azul);
+    color: var(--blanco)
+}
