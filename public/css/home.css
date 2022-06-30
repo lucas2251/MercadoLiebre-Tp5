@@ -1,14 +1,18 @@
 
+body{
+    font-family: var(--fuenteTitular);
+
+}
+.imagenPrincipal{
+    font-size: 50%;
+}
 .titular{
     font-size: 24px;
 
 }
 header{
-    font-family: var(--fuenteTitular);
     background-color: var(--amarillo);
-    color: var(--negro);
-    margin: 10px 0;
-    
+    color: var(--negro);  
 }
 p{
     font-size: 12px;
@@ -23,6 +27,7 @@ body header ul li a{
 }
 body header ul{
     list-style: none;
+    margin-left: -9%;  
 }
 .search i{
     background-color: white;
@@ -34,8 +39,27 @@ body header ul{
 }
 .burger-menu{
     text-align: center;
+    font-size: 28px;
+
+    
 }
 .burger-menu i{
-    background-color:var(--azul);
-    color: var(--blanco)
+    background-color:var(--celeste);
+    color: var(--blanco);
+    width: 10% ;
+}
+.iconoGrande{
+    
+    font-size:2em ;
+    color: var(--celeste);
+    margin-bottom: 10px;
+}
+footer{
+    text-align: center;
+}
+.precio{
+    font-size: 18px;
+}
+.descuento{
+    font-size: 16px;
 }
