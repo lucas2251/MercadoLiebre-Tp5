@@ -12,7 +12,8 @@ body{
 }
 header{
     background-color: var(--amarillo);
-    color: var(--negro);  
+    color: var(--negro);
+    box-sizing: border-box;  
 }
 p{
     font-size: 12px;
@@ -45,8 +46,11 @@ body header ul{
 }
 .burger-menu i{
     background-color:var(--celeste);
-    color: var(--blanco);
-    width: 10% ;
+    padding: 3%;
+    margin-bottom: 28px;
+    border-radius: 20%;
+    ;
+
 }
 .iconoGrande{
     
