@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    border: 0%;
+    padding: 0%;
+    color: var(--negro);
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: var(--fuenteTitular);
+}

@@ -1,0 +1,25 @@
+.titular{
+    font-size: 24px;
+}
+p{
+    font-size: 12px;
+}
+.center{
+    text-align: center;
+}
+.imagenes{
+    max-width: 425px;   
+}
+.precio{
+    font-size: 18px;
+}
+.descuento{
+    font-size: 16px;
+}
+body main{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+body main article{
+    margin-bottom: 10px;
+}

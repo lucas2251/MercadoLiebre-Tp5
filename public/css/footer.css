@@ -1,0 +1,9 @@
+footer{
+    text-align: center;
+}
+.iconoGrande{
+    
+    font-size:2em ;
+    color: var(--celeste);
+    margin-bottom: 10px;
+}
