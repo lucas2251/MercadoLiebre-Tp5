@@ -1,20 +1,19 @@
 .titular{
     font-size: 24px;
 }
-p{
-    font-size: 12px;
-}
+
 .center{
     text-align: center;
 }
 .imagenes{
-    max-width: 425px;   
+    max-width: 220px;   
 }
 .precio{
     font-size: 18px;
 }
 .descuento{
     font-size: 16px;
+    color: var(--verde);
 }
 body main{
     margin-left: 5%;
@@ -22,4 +21,17 @@ body main{
 }
 body main article{
     margin-bottom: 10px;
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+}
+body main article button{
+    padding: 10px;
+    border-radius: 100%;
+    color: var(--verde);
+    border-color: var(--verde);
+    background-color: white;
+    
+}
+.nombreProducto{
+    font-size: 16px;
 }

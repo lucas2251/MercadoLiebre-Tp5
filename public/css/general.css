@@ -14,3 +14,6 @@ a{
 body{
     font-family: var(--fuenteTitular);
 }
+p{
+    font-size: 12px;
+}
