@@ -52,7 +52,7 @@ body main article .contenedor{
 }
 @media (min-width:461px){
     main section article{
-        xbox-shadow: 0px 0px 10px var(--grisOscuro);
+        box-shadow: 0px 0px 10px var(--grisOscuro);
     }
 main section article .nombreProducto{
     display:block;}}
