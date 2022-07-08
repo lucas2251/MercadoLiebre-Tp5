@@ -25,6 +25,9 @@ header .slogan{
     margin: 20px 0;
     text-align: center;
 }
+header .links{
+    display: none;
+}
 
 header .links ul{
     margin:0 0 20px;
@@ -45,4 +48,17 @@ header .links ul i{
     margin-bottom: 28px;
     border-radius: 20%;
     
+}
+@media (min-width:461px){
+    header .links{
+        display: block;
+    }
+    header .slogan{
+        display: none;
+    }
+
+}
+   
+@media (min-width:769px){
+
 }

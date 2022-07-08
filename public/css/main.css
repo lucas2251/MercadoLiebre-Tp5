@@ -1,5 +1,6 @@
 .titular{
-    font-size: 24px;
+    font-size: var(--titulares);
+    color: var(--grisOscuro);
 }
 
 .center{
@@ -9,15 +10,16 @@ body main section article .imagenes{
     width: 100%;
 }
 .precio{
-    font-size: 18px;
+    font-size: var(--precios)
 }
 .descuento{
-    font-size: 16px;
+    font-size: var(--descuentosYdescripciones);
     color: var(--verde);
 }
 body main{
     width: 90%;
     margin: 0 auto;
+    padding:20px 0;
 }
 body main section{
     padding: 20px 0 ;
@@ -26,11 +28,12 @@ body main .banner{
     display: none;
 }
 body main article{
-    margin-bottom: 10px;
+    margin: 10px 0;
     border-top: solid 1px #ebebeb;
     padding: 15px;
+    background-color: white;
 }
-body main article button{
+body main section article button{
     padding: 10px;
     border-radius: 100%;
     color: var(--verde);
@@ -38,6 +41,22 @@ body main article button{
     background-color: white;
     
 }
+body main article .contenedor{
+    border-top: 1px solid var(--grisClaro);
+}
 .nombreProducto{
-    font-size: 16px;
+    font-size: var(--descuentosYdescripciones);
+    margin-top: 10px;
+    color: var(--grisOscuro);
+    display: none;
+}
+@media (min-width:461px){
+    main section article{
+        xbox-shadow: 0px 0px 10px var(--grisOscuro);
+    }
+main section article .nombreProducto{
+    display:block;}}
+   
+@media (min-width:769px){
+
 }
