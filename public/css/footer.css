@@ -1,9 +1,27 @@
 footer{
-    text-align: center;
+    background-color: white;
+    padding: 20px 15px 10px;
 }
 .iconoGrande{
     
     font-size:2em ;
     color: var(--celeste);
     margin-bottom: 10px;
+}
+footer section{
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 0 30px;
+}
+footer section:last-child{
+    text-align: start;
+    margin-bottom: 0;
+    padding: 0;
+}
+footer section h4{
+    font-size: var(--titulares);
+    color: var(--grisOscuro);
+}
+footer section p{
+    font-size:var(--cuerpo-de-texto) ;
 }

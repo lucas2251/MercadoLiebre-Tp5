@@ -1,19 +1,17 @@
 *{
     box-sizing: border-box;
-    border: 0%;
-    padding: 0%;
-    color: var(--negro);
+    margin:0;
+    padding: 0;
+    font-family: var(--fuentePrincipal);
 }
 li{
     list-style: none;
 }
 a{
+    color:black;
     text-decoration: none;
 }
 
 body{
-    font-family: var(--fuenteTitular);
-}
-p{
-    font-size: 12px;
+    background-color: var(--grisClaro);
 }

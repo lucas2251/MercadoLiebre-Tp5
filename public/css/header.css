@@ -3,18 +3,34 @@ header{
     color: var(--negro);
     box-sizing: border-box;  
     width: 100%;
+    padding: 20px 0;
+    font-size: var(--cuerpo-de-texto)
 }
 .imagenPrincipal{
     width: 50%;
 }
-.cajaImagenPrincipal{
-   padding: 30px;
+.cajaImagenPrincipal, .search{
+   margin:0 20px;
 }
 .search{
     padding-left: 20px; 
 }
 .lupa{
     background-color: white;
+    padding: 1px;
+    border: 1px solid var(--grisRaro);
+    border-radius: 4px;
+}
+header .slogan{
+    margin: 20px 0;
+    text-align: center;
+}
+
+header .links ul{
+    margin:0 0 20px;
+}
+header .links ul i{
+    margin: 0 3px;
 }
 
 .burger-menu{

@@ -5,8 +5,8 @@
 .center{
     text-align: center;
 }
-.imagenes{
-    max-width: 220px;   
+body main section article .imagenes{
+    width: 100%;
 }
 .precio{
     font-size: 18px;
@@ -16,8 +16,14 @@
     color: var(--verde);
 }
 body main{
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 90%;
+    margin: 0 auto;
+}
+body main section{
+    padding: 20px 0 ;
+}
+body main .banner{
+    display: none;
 }
 body main article{
     margin-bottom: 10px;
