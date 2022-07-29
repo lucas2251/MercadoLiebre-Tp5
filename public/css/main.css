@@ -6,8 +6,29 @@
 .center{
     text-align: center;
 }
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;}
 body main section article .imagenes{
     width: 100%;
+}
+main section article .caja-pre-desc{
+display: flex;
+flex-direction: row;
+}
+main section article .caja-pre-desc .precio{
+    width: 30%;
+}
+main section article .caja-pre-desc .descuento{
+    width: 70%;
 }
 .precio{
     font-size: var(--precios)
@@ -34,12 +55,7 @@ body main article{
     background-color: white;
 }
 body main section article button{
-    padding: 10px;
-    border-radius: 100%;
     color: var(--verde);
-    border-color: var(--verde);
-    background-color: white;
-    
 }
 body main article .contenedor{
     border-top: 1px solid var(--grisClaro);
