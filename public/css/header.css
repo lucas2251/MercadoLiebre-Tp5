@@ -7,13 +7,14 @@ header{
     font-size: var(--cuerpo-de-texto)
 }
 .imagenPrincipal{
-    width: 50%;
+    width: 100%;
 }
 .cajaImagenPrincipal, .search{
    margin:0 20px;
 }
 .search{
-    padding-left: 20px; 
+     display: flex;
+     flex-direction: row;
 }
 .lupa{
     background-color: white;
@@ -49,6 +50,14 @@ header .links ul i{
     border-radius: 20%;
     
 }
+.encabezado{
+    display: flex;
+    flex-direction: row;
+}
+.encabezado .cajaImagenPrincipal,.search{
+    width: 50%;
+}
+
 @media (min-width:461px){
     header .links{
         display: block;
