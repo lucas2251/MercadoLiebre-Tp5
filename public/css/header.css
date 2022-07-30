@@ -16,11 +16,15 @@ header{
      display: flex;
      flex-direction: row;
 }
+.search input{
+    width: 90%;
+}
 .lupa{
     background-color: white;
     padding: 1px;
     border: 1px solid var(--grisRaro);
     border-radius: 4px;
+    width:10%
 }
 header .slogan{
     margin: 20px 0;
@@ -50,24 +54,50 @@ header .links ul i{
     border-radius: 20%;
     
 }
-.encabezado{
+.encabezado2{
     display: flex;
     flex-direction: row;
 }
-.encabezado .cajaImagenPrincipal,.search{
+.encabezado2 .cajaImagenPrincipal,.search{
     width: 50%;
 }
 
 @media (min-width:461px){
-    header .links{
-        display: block;
-    }
-    header .slogan{
+    .burger-menu{
         display: none;
     }
-
+    header .slogan{
+        display: block;
+    width: 35%;
+        margin: none;
+    }
+.encabezado1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.encabezado1 .encabezado2{
+    width: 65%;
+}
+.search{
+    height: 40%;
+}
+header .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header .links ul{
+    display: flex;
+    flex-direction: row;
+}
+header .links ul li{
+    margin:0 5px ;
+    margin-top: 30px;
+}
 }
    
 @media (min-width:769px){
-
+   
 }
