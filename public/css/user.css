@@ -23,7 +23,7 @@ main form .botones{
     flex-direction: row;
     justify-content: center; 
 }
-main form .botones button{
+main form .botones button, main form .botones button a{
     width: 20%;
     height: 30px;
     margin: 10px;
