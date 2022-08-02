@@ -1,0 +1,32 @@
+main form{
+    display: flex;
+    flex-direction: column;
+}
+main form input{
+    height: 45px;
+    margin: 10px 0;
+
+}
+main form .check{
+    height: 10px;
+}
+main form .foto{
+    display: flex;
+    flex-direction: column;
+}
+main form .columnas-check{
+    display: flex;
+    flex-direction: column;
+}
+main form .botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+main form .botones button{
+    width: 20%;
+    height: 30px;
+    margin: 10px;
+    color: white;
+    background-color: #1259C3 ;
+}

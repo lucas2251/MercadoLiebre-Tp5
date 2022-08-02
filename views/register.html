@@ -46,31 +46,34 @@
             <input placeholder="Nombre y apellido" name="nombreYapellido" type="text" required>
             <input placeholder="Nombre de usuario" name="nombreUsuario" type="text" required>
             <input placeholder="Email" name="email" type="email" required>
+            <h2>Fecha de nacimiento</h2>
             <input type="date">
             <input placeholder="Domicilio" name="domicilio" type="text" required>
             <h2>Perfil de usuario</h2>
-           <div> <label>
-                <input name="perfilUsuario" type="radio">Comprador
+           <div> 
+            <label>
+                <input class="check" name="perfilUsuario" type="radio">Comprador
             </label>
             
             <label>
-                <input name="perfilUsuario" type="radio">vendedor
+                <input class="check" name="perfilUsuario" type="radio">vendedor
             </label>
         </div>
-        <div>
+        <div class="columnas-check">
             <h2>Intereses</h2>
-            <label><input type="checkbox" name="categorias">Electro</label>
-            <label><input type="checkbox" name="categorias">Moda</label>
-            <label><input type="checkbox" name="categorias">Hogar</label>
-            <label><input type="checkbox" name="categorias">Jugueteria</label>
-            <label><input type="checkbox" name="categorias" value="categoria">Vida sana</label>
+            <label><input class="check" type="checkbox" name="categorias">Electro</label>
+            <label><input class="check" type="checkbox" name="categorias">Moda</label>
+            <label><input class="check" type="checkbox" name="categorias">Hogar</label>
+            <label><input class="check" type="checkbox" name="categorias">Jugueteria</label>
+            <label><input class="check" type="checkbox" name="categorias" value="categoria">Vida sana</label>
         </div>
-            <label>Selecciona una foto de usuario<input type="file" accept=".jpg"></label>
+            <label class="foto">Selecciona una foto de usuario<input type="file" accept=".jpg"></label>
             <input placeholder="Contraseña"  name="contraseña" type="password" required>
             <input placeholder="Repetir contraseña" name="contraseña" type="password" required>
-            <button type="submit">Enivar</button>
+           <div class="botones">
+             <button type="submit">Enivar</button>
             <button type="reset">Borrar</button>
-           
+           </div>
 
 
         </form>
