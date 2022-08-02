@@ -16,10 +16,10 @@
                 <div class="cajaImagenPrincipal">
                     <img class="imagenPrincipal" src="/img/logo-mercado-liebre.svg">
                 </div>
-                <div class="search">
+                <form class="search">
                     <input type="text" placeholder="Buscar productos,marcas" >
-                    <button class= required"lupa"><i class="fas fa-search"></i></button>
-                </div>
+                    <button class= "lupa"><i class="fas fa-search"></i></button>
+                </form>
             </article>
             <h4 class="slogan"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</h4>
         </section>
@@ -44,11 +44,15 @@
 
         <form action="" method="post">
             <input placeholder="Nombre y apellido" name="nombreYapellido" type="text" required>
+            <small>*Debe ingresar su nombre y apellido*</small>
             <input placeholder="Nombre de usuario" name="nombreUsuario" type="text" required>
+            <small>*Ingrese su nombre de usuario*</small>
             <input placeholder="Email" name="email" type="email" required>
+            <small>*Ingrese su email*</small>
             <h2>Fecha de nacimiento</h2>
             <input type="date">
             <input placeholder="Domicilio" name="domicilio" type="text" required>
+            <small>*Debe ingresar su domicilio*</small>
             <h2>Perfil de usuario</h2>
            <div> 
             <label>
@@ -69,9 +73,11 @@
         </div>
             <label class="foto">Selecciona una foto de usuario<input type="file" accept=".jpg"></label>
             <input placeholder="Contraseña"  name="contraseña" type="password" required>
+            <small>*Ingrese una contraseña*</small>
             <input placeholder="Repetir contraseña" name="contraseña" type="password" required>
+            <small>*Las contraseñas deben coinicidir*</small>
            <div class="botones">
-             <button type="submit"><a href="/"> Enivar</a></button>
+             <button type="submit"><a href="/"> Enviar</a></button>
             <button type="reset">Borrar</button>
            </div>
 

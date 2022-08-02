@@ -30,3 +30,6 @@ main form .botones button, main form .botones button a{
     color: white;
     background-color: #1259C3 ;
 }
+main form small{
+    color: red;
+}
